@@ -90,31 +90,7 @@ npm start
 Frontend runs at: http://localhost:3000
  Backend runs at: http://localhost:1000
 
-🧪 API Endpoints
-Method
-Endpoint
-Description
-POST
-/api/v1/users/register
-Register a new user
-POST
-/api/v1/users/login
-Login user and set JWT cookie
-GET
-/api/v1/users/userDetails
-Fetch current user and tasks
-GET
-/logout
-Logout user and clear cookie
-POST
-/api/v1/tasks/addTask
-Add a new task
-PUT
-/api/v1/tasks/editTask/:id
-Edit a task (priority/status)
-DELETE
-/api/v1/tasks/deleteTask/:id
-Delete a task
+
 
 
  Challenges Faced
