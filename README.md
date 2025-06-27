@@ -43,8 +43,11 @@ Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applic
 ---
 
 ##  Folder Structure
+![image](https://github.com/user-attachments/assets/fce9edc7-56b1-43fb-a90a-d692b98dd319)
+![image](https://github.com/user-attachments/assets/8a5fbbf0-f48b-4693-be63-a6b9f2d5f233)
 
-![image](https://github.com/user-attachments/assets/bba87af0-78f1-4f37-9e4d-72371c3f8086)
+
+
 
 
 ---
