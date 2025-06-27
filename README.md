@@ -44,20 +44,7 @@ Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applic
 
 ## 📁 Folder Structure
 
-Taskify/
- ├── client/ # React Frontend
- │ ├── src/
- │ │ ├── components/
- │ │ │ └── Dashboard/ # AddTask, Header, StackTitle, etc.
- │ │ ├── pages/ # Login, Register, Dashboard
- │ │ └── App.js
- ├── server/ # Node.js Backend
- │ ├── models/ # User.js, Task.js (Mongoose schemas)
- │ ├── routes/ # user.js, task.js
- │ ├── services/ # task.js (CRUD functions)
- │ ├── middleware/ # verifyUser.js
- │ ├── connection/ # conn.js (MongoDB connection)
- │ └── app.js # Main server file
+![image](https://github.com/user-attachments/assets/bba87af0-78f1-4f37-9e4d-72371c3f8086)
 
 
 ---
