@@ -56,44 +56,13 @@ Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applic
 - MongoDB Atlas account
 - Git installed
 
-###  Steps
-
-#### 1. Clone the repository:
-
-git clone https://github.com/your-username/taskify.git
-cd taskify
-
-2. Backend Setup:
-cd server
-npm install
-
-Create .env file:
-
-
-env
-MONGO_URL=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-Run the backend server:
-
-
-
-nodemon app.js
-
-3. Frontend Setup:
-bash
-CopyEdit
-cd client
-npm install
-npm start
-
-Frontend runs at: http://localhost:3000
- Backend runs at: http://localhost:1000
 
 
 
 
- Challenges Faced
+
+ Challenges Faced  
+ 
 Cookie-based JWT auth setup: Ensured tokens were securely stored as HTTP-only cookies.
 
 
