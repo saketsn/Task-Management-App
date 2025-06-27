@@ -4,32 +4,32 @@ Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applic
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 User Registration & Login (JWT Auth via HTTP-only cookies)
-- 🧠 Add tasks with:
+-  User Registration & Login (JWT Auth via HTTP-only cookies)
+-  Add tasks with:
   - Title
   - Description
   - Priority: `Low`, `Medium`, `High`
   - Status: `Yet to Start`, `In Progress`, `Completed`
-- 🧮 Categorized task display based on status
-- 🔁 Update task status and priority dynamically
-- 🗑 Delete any task
-- ✅ Protected Routes using Middleware
-- 📦 MongoDB data modeling using Mongoose
+-  Categorized task display based on status
+-  Update task status and priority dynamically
+-  Delete any task
+-  Protected Routes using Middleware
+-  MongoDB data modeling using Mongoose
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 🔹 Frontend
+###  Frontend
 - [React.js](https://reactjs.org/)
 - Axios (API requests)
 - React Router DOM (Page routing)
 - Tailwind CSS (UI Styling)
 - useState, useEffect (State & Lifecycle Management)
 
-### 🔹 Backend
+###  Backend
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - bcryptjs (Password hashing)
@@ -37,35 +37,33 @@ Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web applic
 - cookie-parser (Cookie management)
 - CORS (Cross-Origin Requests)
 
-### 🔹 Database
+###  Database
 - [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ![image](https://github.com/user-attachments/assets/bba87af0-78f1-4f37-9e4d-72371c3f8086)
 
 
 ---
 
-## 📦 Installation & Running Locally
+##  Installation & Running Locally
 
-### ⚙️ Prerequisites
+###  Prerequisites
 - Node.js and npm installed
 - MongoDB Atlas account
 - Git installed
 
-### 🔄 Steps
+###  Steps
 
 #### 1. Clone the repository:
-```bash
+
 git clone https://github.com/your-username/taskify.git
 cd taskify
 
 2. Backend Setup:
-bash
-CopyEdit
 cd server
 npm install
 
@@ -73,15 +71,13 @@ Create .env file:
 
 
 env
-CopyEdit
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
 Run the backend server:
 
 
-bash
-CopyEdit
+
 nodemon app.js
 
 3. Frontend Setup:
@@ -121,7 +117,7 @@ DELETE
 Delete a task
 
 
-🧠 Challenges Faced
+ Challenges Faced
 Cookie-based JWT auth setup: Ensured tokens were securely stored as HTTP-only cookies.
 
 
