@@ -1,4 +1,4 @@
-# 📝 Taskify - Task Management Web Application
+#  Taskify - Task Management Web Application
 
 Taskify is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that allows users to manage their daily tasks efficiently. Users can register, log in, and create tasks with different **priorities** and **statuses**, and dynamically update or delete them as needed.
 
